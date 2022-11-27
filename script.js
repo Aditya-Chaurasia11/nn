@@ -1,4 +1,6 @@
 var preloader = document.getElementById('load')
 function myFunction(){
-    preloader.style.display='none'
+    setTimeout(function(){
+        preloader.style.display='none'
+    }, 1600);
 }
